@@ -1,0 +1,79 @@
+# -------------------------
+# KiCad project gitignore
+# -------------------------
+
+# KiCad backup and autosave files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+
+# Netlist, BOM, and report files (can be regenerated)
+*.net
+*.xml
+*.csv
+*.rpt
+*.bom
+
+# Simulation output and cache
+*.cache
+*.tmp
+*.log
+*.raw
+*.out
+
+# KiCad symbol and footprint library tables cache
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# User configuration (machine-specific)
+*.dcm
+sym-lib-table
+fp-lib-table
+
+# KiCad v6/v7 autosave folders
+*.kicad_prl
+*.kicad_sch-prl
+*.kicad_pcb-bak
+*.kicad_sch.lck
+# Gerbers, drills, and fabrication outputs
+*.gbr
+*.gtl
+*.gts
+*.gto
+*.gbl
+*.gbs
+*.gbo
+*.drl
+*.zip
+fabrication/
+gerbers/
+plots/
+
+# 3D model build outputs
+*.wrl
+*.step
+*.stp
+
+# Windows-specific junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary editor or OS files
+~$*
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Optional: ignore simulation and test folders
+sim/
+test/
+
+# Optional: ignore personal notes or exports
+notes/
+exports/
