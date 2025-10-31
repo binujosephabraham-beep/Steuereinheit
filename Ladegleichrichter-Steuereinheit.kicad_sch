@@ -2111,6 +2111,69 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "+24V"
+		(exclude_from_sim no)
+		(at 341.884 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04e1c11c-1532-4841-ac22-28b568e59cc6")
+	)
+	(text "Ust"
+		(exclude_from_sim no)
+		(at 101.092 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "13888699-0f73-4c7e-adc8-740592f4b6ba")
+	)
+	(text "Ur"
+		(exclude_from_sim no)
+		(at 50.546 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "526e2049-16cd-490e-9168-73c2f93e7143")
+	)
+	(text "JL"
+		(exclude_from_sim no)
+		(at 45.72 216.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "73a8be1e-5589-4852-b7d9-97d061341f16")
+	)
+	(text "-24V"
+		(exclude_from_sim no)
+		(at 340.36 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e28ceee-c40f-424f-b2e6-6b878914dea0")
+	)
+	(text "0V"
+		(exclude_from_sim no)
+		(at 340.36 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bedabc2a-2dc4-45b2-9a7c-4612c92c1fd9")
+	)
 	(junction
 		(at 246.38 78.74)
 		(diameter 0)
